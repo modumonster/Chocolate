@@ -3829,7 +3829,7 @@
     (uuid fbc71af7-de54-4238-9761-e2dd07bc84ed)
     (property "Reference" "U1" (id 0) (at 229.235 20.1635 0))
     (property "Value" "L7805" (id 1) (at 229.235 22.9386 0))
-    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (id 2) (at 229.87 29.845 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" (id 2) (at 229.87 29.845 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" (id 3) (at 229.235 27.305 0)
@@ -4002,7 +4002,7 @@
       (reference "RV1") (unit 1) (value "500k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
     )
     (path "/fbc71af7-de54-4238-9761-e2dd07bc84ed"
-      (reference "U1") (unit 1) (value "L7805") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
+      (reference "U1") (unit 1) (value "L7805") (footprint "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown")
     )
   )
 )
