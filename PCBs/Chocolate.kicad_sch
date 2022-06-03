@@ -2845,7 +2845,7 @@
   (symbol (lib_id "Device:C") (at 217.805 29.845 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1640c815-f26e-47fb-afd0-e5fad0a2ba7c)
-    (property "Reference" "C1" (id 0) (at 208.915 29.845 0)
+    (property "Reference" "C2" (id 0) (at 208.915 29.845 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330n" (id 1) (at 208.915 32.385 0)
@@ -2966,7 +2966,7 @@
   (symbol (lib_id "Device:C") (at 240.665 29.845 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3fb484cb-cd4c-4513-8341-534ee5f71206)
-    (property "Reference" "C2" (id 0) (at 243.586 28.9365 0)
+    (property "Reference" "C4" (id 0) (at 243.586 28.9365 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (id 1) (at 243.586 31.7116 0)
@@ -3241,7 +3241,7 @@
   (symbol (lib_id "Device:LED") (at 139.065 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 720c1001-1a44-4a0c-8694-00b65e09e7d8)
-    (property "Reference" "D2" (id 0) (at 137.4775 87.4735 0))
+    (property "Reference" "D3" (id 0) (at 137.4775 87.4735 0))
     (property "Value" "LED" (id 1) (at 137.4775 90.2486 0))
     (property "Footprint" "LED_THT:LED_D5.0mm" (id 2) (at 139.065 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3415,7 +3415,7 @@
   (symbol (lib_id "Device:C") (at 269.24 31.75 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 941cdffe-2cb5-499b-8328-8baccc4eb37f)
-    (property "Reference" "C4" (id 0) (at 271.78 31.75 0)
+    (property "Reference" "C1" (id 0) (at 271.78 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330n" (id 1) (at 260.35 34.29 0)
@@ -3547,7 +3547,7 @@
   (symbol (lib_id "Device:LED") (at 147.955 102.87 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid bda5bd79-46d0-470f-978e-3a8f830bb866)
-    (property "Reference" "D3" (id 0) (at 149.5425 96.7445 0))
+    (property "Reference" "D2" (id 0) (at 149.5425 96.7445 0))
     (property "Value" "LED" (id 1) (at 149.5425 99.5196 0))
     (property "Footprint" "LED_THT:LED_D5.0mm" (id 2) (at 147.955 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3860,25 +3860,25 @@
     (path "/d01c1afd-c6de-413c-bac6-c76cdb61ae55"
       (reference "#PWR05") (unit 1) (value "GND") (footprint "")
     )
-    (path "/1640c815-f26e-47fb-afd0-e5fad0a2ba7c"
+    (path "/941cdffe-2cb5-499b-8328-8baccc4eb37f"
       (reference "C1") (unit 1) (value "330n") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
     )
-    (path "/3fb484cb-cd4c-4513-8341-534ee5f71206"
-      (reference "C2") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+    (path "/1640c815-f26e-47fb-afd0-e5fad0a2ba7c"
+      (reference "C2") (unit 1) (value "330n") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
     )
     (path "/74315917-dce5-4769-a3b7-a2d2033698d9"
       (reference "C3") (unit 1) (value "330n") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
     )
-    (path "/941cdffe-2cb5-499b-8328-8baccc4eb37f"
-      (reference "C4") (unit 1) (value "330n") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+    (path "/3fb484cb-cd4c-4513-8341-534ee5f71206"
+      (reference "C4") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
     )
     (path "/b3a8f536-9ead-4b4b-ac82-179916ddcc67"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
     )
-    (path "/720c1001-1a44-4a0c-8694-00b65e09e7d8"
+    (path "/bda5bd79-46d0-470f-978e-3a8f830bb866"
       (reference "D2") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
     )
-    (path "/bda5bd79-46d0-470f-978e-3a8f830bb866"
+    (path "/720c1001-1a44-4a0c-8694-00b65e09e7d8"
       (reference "D3") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
     )
     (path "/e600b813-a9bd-4466-a4dc-7798a7c13394"
