@@ -3584,7 +3584,7 @@
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 42fed1c9-917a-43cb-abbc-c8a6de9248f1))
     (pad "3" thru_hole oval (at 5.08 0 270) (size 1.905 2) (drill 1.1) (layers *.Cu *.Mask)
       (net 4 "+5V") (pinfunction "OUT") (pintype "power_out") (tstamp fafc0658-87be-43ad-a36e-9617cd078b23))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabDown.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabDown.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
